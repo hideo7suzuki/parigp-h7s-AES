@@ -1,3 +1,5 @@
+\\ file name: parigp-h7s.gp
+
 \\ AES (128 bit key) encryption/decryption programs using PARI/GP ver.0.900.
 \\ copyright by Hideo Suzuki, hideo7suzuki@gmail.com Jan. 2025.
 
