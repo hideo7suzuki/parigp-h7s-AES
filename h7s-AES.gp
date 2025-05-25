@@ -3,8 +3,6 @@
 \\ AES (128 bit key) encryption/decryption programs using PARI/GP ver.0.900.
 \\ copyright by Hideo Suzuki, hideo7suzuki@gmail.com Jan. 2025.
 
-\\ AES preparation
-
 { AES_RK(KEY) = 
 RK=vector(11);
 RK[1]=KEY;
