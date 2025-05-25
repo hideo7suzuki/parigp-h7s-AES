@@ -4,7 +4,7 @@ Readme.txt
 program lists of AES (128 bit key) encryption/decryption programs using PARI/GP ver.0.900.  
 copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
-AES_RK(KEY) generation of AES round keys RK[1..11]  
+AES_RK(KEY) generation of AES round keys RK[1-11]  
 AES(PT,KEY) AES encryption  
 AESinv(CT,KEY) AES decryption (=inv)  
 AESprintRK() print of AES round keys RKs  
@@ -31,7 +31,7 @@ AESinv_round10(r,C) AES processing of AES decryption at the 10th round
 AES暗号 (128 bit key) ユーザ定義関数プログラムリスト  
 copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
-AES_RK(KEY) AES 暗号のラウンド鍵RK[1..11] 生成関数  
+AES_RK(KEY) AES 暗号のラウンド鍵RK[1-11] 生成関数  
 AES(PT,KEY) AES 暗号化関数  
 AESinv(CT,KEY) AES 復号(inv) 関数  
 AESprintRK() AES 暗号のラウンド鍵RK のprint 関数  
