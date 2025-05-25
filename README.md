@@ -1,11 +1,16 @@
 Readme.txt
 
 [in English]
+
 program lists of AES (128 bit key) encryption/decryption programs using PARI/GP ver.0.900.
+
 copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.
 
+
 AES_RK(KEY) generation of AES round keys RK
+
 AES(PT,KEY) AES encryption
+
 AESinv(CT,KEY) AES decryption (=inv)
 AESprintRK() print of AES round keys RK
 AESprint() print of AES KEY, PT(plaintext), CT(ciphertext)
