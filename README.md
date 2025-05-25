@@ -27,7 +27,7 @@ AESinv_round10(r,C) AES processing of AES decryption at the 10th round
 
 ----------
 
-Rules in this program:  
+Rules in these programs:  
 key should be set to the variable KEY.  
 plaintext should be set to the variable PT.  
 ciphertext should be set to the variable CT.  
