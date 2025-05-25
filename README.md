@@ -27,10 +27,10 @@ AESinv_round10(r,C) AES processing of AES decryption at the 10th round
 
 ----------
 
-Rules in this program: 
-key should be set to the variable KEY.
-plaintext should be set to the variable PT.
-ciphertext should be set to the variable CT.
+Rules in this program:  
+key should be set to the variable KEY.  
+plaintext should be set to the variable PT.  
+ciphertext should be set to the variable CT.  
 
 Execution example:  
 (input)  
@@ -146,5 +146,6 @@ AESinv_round10(r,C) AES 暗号のラウンド10 の復号(inv) 処理関数
 このプログラムの規則:  
 鍵, 平文, 暗号文の各変数は, KEY, PT, CT とする.  
 
-実行例は [in English] の Execution example と同じ.   
+実行例は [in English] の Execution example と同じ.  
+   
 ----------
