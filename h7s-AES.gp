@@ -294,4 +294,4 @@ for(i=0,255,for(j=0,255,if(S[j+1,1] == i, S[i+1,2]=j; break))); }
 RC=vector(14);
 { for(i=1,14,
     RC[i] = digits2dec(Vecrev(Vecrev(lift(lift(Mod(Mod(x^(i-1),P(x)),2))),8)),2) ) }
-\\ for(i=1,14,printf("RC[%d] = x^%d = 0x%02X\n", i, (i-1), RC[i]))
+
