@@ -293,5 +293,5 @@ for(i=0,255,for(j=0,255,if(S[j+1,1] == i, S[i+1,2]=j; break))); }
 
 RC=vector(14);
 { for(i=1,14,
-    RC[i] = digits2dec(Vecrev(Vecrev(lift(lift(Mod(Mod(x^(i-1),P(x)),2))),8)),2) ) }
+    RC[i] = digits2dec(Vecrev(Vecrev(lift(lift(Mod(Mod(x,P(x)),2)^(i-1))),8)),2) ) }
 
