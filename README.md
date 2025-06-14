@@ -1,4 +1,4 @@
-Readme.txt
+Readme.md of parigp-h7s-AES/h7s-AES.gp
 
 [in English]  
 program lists of AES (128 bit key) encryption/decryption programs using PARI/GP ver.0.900.  
