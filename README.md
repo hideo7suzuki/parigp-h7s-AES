@@ -1,6 +1,6 @@
 Readme.md of parigp-h7s-AES/h7s-AES.gp
 
-This program is for PARI/GP, not for gnuplot.
+This program is for PARI/GP, not for Gnuplot.
 
 [in English]  
 program lists of AES (128 bit key) encryption/decryption programs using PARI/GP ver.0.900.  
