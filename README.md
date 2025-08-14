@@ -1,10 +1,11 @@
-Readme.md of parigp-h7s-AES/h7s-AES.gp
+### Readme.md of parigp-h7s-AES/h7s-AES.gp
 
-This program is for PARI/GP, not for Gnuplot.
+### This program is for PARI/GP, not for Gnuplot.
 
-[in English]  
-program lists of AES (128 bit key) encryption/decryption programs using PARI/GP ver.0.900.  
-copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
+#### [in English]  
+
+### program lists of AES (128 bit key) encryption/decryption programs using PARI/GP ver.0.900.  
+### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
 AES_RK(KEY) generation of AES round keys RK[1-11]  
 AES(PT,KEY) AES encryption  
@@ -18,8 +19,8 @@ AESprintCT() print of AES CT(ciphertext)
 AESprintCTT() print of AES CTTs (ciphertext in each round)  
 AESprintCTTrev() print of AES CTTs (ciphertext in each round) in reverse order  
 
-program lists of AES (128 bit key) encryption/decryption internal programs using PARI/GP ver.0.900.  
-copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
+### program lists of AES (128 bit key) encryption/decryption internal programs using PARI/GP ver.0.900.  
+### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
 AESnextRK(RK,RC) generation of AES next round key  
 AES_round(r,A) processing of AES encryption in each round  
@@ -29,12 +30,12 @@ AESinv_round10(r,C) AES processing of AES decryption at the 10th round
 
 ----------
 
-Rules in these programs:  
+### Rules in these programs:  
 key should be set to the variable KEY.  
 plaintext should be set to the variable PT.  
 ciphertext should be set to the variable CT.  
 
-Execution example:  
+### Execution example:  
 (input)  
 KEY=0x000102030405060708090A0B0C0D0E0F;  
 AES_RK(KEY);  
@@ -117,9 +118,9 @@ CTT[ 1]=0x00102030405060708090A0B0C0D0E0F0
 
 ----------
 
-[in Japanese]  
-AES暗号 (128 bit key) ユーザ定義関数プログラムリスト  
-copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
+#### [in Japanese]  
+### AES暗号 (128 bit key) ユーザ定義関数プログラムリスト  
+### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
 AES_RK(KEY) AES 暗号のラウンド鍵RK[1-11] 生成関数  
 AES(PT,KEY) AES 暗号化関数  
@@ -133,8 +134,8 @@ AESprintCT() AES 暗号のCT(暗号文) のprint 関数
 AESprintCTT() AES 暗号のCTT(暗号文の途中経過) のprint 関数  
 AESprintCTTrev() AES 暗号のCTT(暗号文の途中経過) のprint 関数, 逆順(rev)  
 
-AES 暗号化・復号の内部処理関数  
-copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
+### AES 暗号化・復号の内部処理関数  
+### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
 AESnextRK(RK,RC) AES 暗号の次のラウンド鍵RK 計算関数  
 AES_round(r,A) AES 暗号のラウンド暗号化処理関数  
@@ -144,7 +145,7 @@ AESinv_round10(r,C) AES 暗号のラウンド10 の復号(inv) 処理関数
 
 ----------
 
-このプログラムの規則:  
+### このプログラムの規則:  
 鍵, 平文, 暗号文の各変数は, KEY, PT, CT とする.  
 
 実行例は [in English] の Execution example と同じ.  
