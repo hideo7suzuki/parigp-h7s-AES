@@ -119,7 +119,7 @@ CTT[ 1]=0x00102030405060708090A0B0C0D0E0F0
 ----------
 
 #### [in Japanese]  
-### AES暗号 (128 bit key) ユーザ定義関数プログラムリスト  
+### AES暗号 (128 bit key) ユーザ定義関数プログラムリスト  ver.0.900.  
 ### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
 AES_RK(KEY) AES 暗号のラウンド鍵RK[1-11] 生成関数  
@@ -134,7 +134,7 @@ AESprintCT() AES 暗号のCT(暗号文) のprint 関数
 AESprintCTT() AES 暗号のCTT(暗号文の途中経過) のprint 関数  
 AESprintCTTrev() AES 暗号のCTT(暗号文の途中経過) のprint 関数, 逆順(rev)  
 
-### AES 暗号化・復号の内部処理関数  
+### AES 暗号化・復号の内部処理関数  ver.0.900.  
 ### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
 AESnextRK(RK,RC) AES 暗号の次のラウンド鍵RK 計算関数  
