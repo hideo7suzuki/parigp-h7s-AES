@@ -1,6 +1,6 @@
 \\ file name: h7s-AES.gp
 
-\\ AES (128 bit key) encryption/decryption programs using PARI/GP ver.0.900.
+\\ ver.0.900 AES (128 bit key) encryption/decryption programs using PARI/GP.
 \\ copyright by Hideo Suzuki, hideo7suzuki@gmail.com Jan. 2025.
 
 { AES_RK(KEY) = 
