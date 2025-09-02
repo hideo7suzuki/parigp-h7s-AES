@@ -4,7 +4,7 @@
 
 #### [in English]  
 
-### program lists of AES (128 bit key) encryption/decryption programs using PARI/GP ver.0.900.  
+### ver.0.900 program lists of AES (128 bit key) encryption/decryption programs using PARI/GP.  
 ### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
 AES_RK(KEY) generation of AES round keys RK[1-11]  
@@ -119,7 +119,7 @@ CTT[ 1]=0x00102030405060708090A0B0C0D0E0F0
 ----------
 
 #### [in Japanese]  
-### AES暗号 (128 bit key) ユーザ定義関数プログラムリスト  ver.0.900.  
+### AES暗号 (128 bit key) ユーザ定義関数プログラムリスト ver.0.900.  
 ### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
 AES_RK(KEY) AES 暗号のラウンド鍵RK[1-11] 生成関数  
