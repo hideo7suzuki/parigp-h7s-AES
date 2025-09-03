@@ -4,7 +4,7 @@
 
 #### [in English]  
 
-### ver.0.900 program lists of AES (128 bit key) encryption/decryption programs using PARI/GP.  
+### program lists of AES (128 bit key) encryption/decryption programs ver.0.900 using PARI/GP.  
 ### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
 AES_RK(KEY) generation of AES round keys RK[1-11]  
@@ -19,7 +19,7 @@ AESprintCT() print of AES CT(ciphertext)
 AESprintCTT() print of AES CTTs (ciphertext in each round)  
 AESprintCTTrev() print of AES CTTs (ciphertext in each round) in reverse order  
 
-### program lists of AES (128 bit key) encryption/decryption internal programs using PARI/GP ver.0.900.  
+### program lists of AES (128 bit key) encryption/decryption internal programs ver.0.900 using PARI/GP.  
 ### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
 AESnextRK(RK,RC) generation of AES next round key  
@@ -134,7 +134,7 @@ AESprintCT() AES 暗号のCT(暗号文) のprint 関数
 AESprintCTT() AES 暗号のCTT(暗号文の途中経過) のprint 関数  
 AESprintCTTrev() AES 暗号のCTT(暗号文の途中経過) のprint 関数, 逆順(rev)  
 
-### AES 暗号化・復号の内部処理関数  ver.0.900.  
+### AES 暗号化・復号の内部処理関数 ver.0.900.  
 ### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
 AESnextRK(RK,RC) AES 暗号の次のラウンド鍵RK 計算関数  
